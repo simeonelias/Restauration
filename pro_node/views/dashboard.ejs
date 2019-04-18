@@ -1,0 +1,41 @@
+<% include dtopbar%>
+
+<center><h2><%=msg%></h2></center>
+
+<table class="table table-hover table-striped table-info">
+    <thead>
+      <tr>
+      
+        
+        <th scope="col">IMAGE</th>
+        <th scope="col">TITRE</th>
+        <th scope="col">DESCRIPTION</th>
+        <th scope="col">CATEGORIE</th>
+        <th scope="col">DATE</th>
+        <th scope="col">MODIFIER</th>
+        <th scope="col">SUPRIMER</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="">
+        <%for(value of records){%>
+        <td scope="col"><img src="uploads/<%= value.image %>"alt="img" style="height: 100px;"> </td>
+        <td scope="col"><%=value.title%></td>
+        <td scope="col"><%=value.description%></td>
+        <td scope="col"><%=value.categorie%></td>
+        <td scope="col"><%=value.created%></td>
+        <td scope="col"><a class="btn btn-warning"  href="/modifier/<%= value.id %>">Modifier</a> </td>
+        <td scope="col"><a class="btn btn-danger"  href="/suprimer/<%= value.id %>">Suprimer</a></td>
+      </tr>
+        <% }%>
+    </tbody>
+  </table> 
+  
+
+  <script src="bootstrap/js/jquery-3.3.1.js"></script> 
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+ 

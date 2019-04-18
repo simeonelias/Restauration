@@ -1,0 +1,195 @@
+body{
+	background-image: url('../../img/dix.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+
+}
+
+
+
+
+header{
+	margin-bottom: 20px;
+
+}
+
+.navbar-nav li a{
+	
+		font-size: 22px;
+		font-weight: 500;
+
+}
+
+nav div ul li a:hover{
+	border-radius: 5px;
+	background-color: #20c997;
+
+}
+
+nav{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-radius: 5px;
+
+}
+
+nav .nav-link.active{
+	background-color: #20c997;
+	border-radius: 2px;
+}
+
+@media screen and (min-width: 992px) {
+nav div{
+	position: absolute;
+	right: 120px;
+}
+}
+
+#accueil{
+	padding: 10px ;
+}
+
+.carousel-caption{
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 3px;
+}
+.card-tete{
+	background-color: orange;
+	color: white;
+}
+
+
+.login{
+	width: 300px;
+	margin: 15px auto;
+}
+
+.transfert{
+	width: 400px;
+	margin: 15px auto;
+}
+
+.with-errors{
+	color: red;
+}
+.item{
+	margin: 10px auto
+}
+.items{
+	background-color: orange;
+	height: 150px;
+	margin: 10px auto;
+	border-radius: 5px;
+	color: white;
+}
+
+
+
+.panel{
+	margin: 10px auto;
+}
+
+.bgvert{
+	background-color: #02B875;
+	color: white;
+}
+
+.bgvert:hover{
+	background-color:white ;
+	color: #02B875;
+	
+}
+
+.bgorange{
+	background-color: #f0ad4e;
+	color: white;
+}
+
+.bgorange:hover{
+	background-color: white;
+	color: #f0ad4e;
+}
+
+.bgbleu{
+	background-color: #4582EC;
+	color: white;
+}
+.bgbleu:hover{
+	background-color: white;
+	color: #4582EC;
+}
+
+.nav-item{
+	float: left;
+	padding-left: 15px;
+}
+
+footer{
+
+	display: block;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 0px; 
+	background-color: #343a40;
+	padding: 5px 15px;
+	color: white;
+}
+
+.foot_content{
+	display: block;
+	margin-bottom: 20px;
+	
+}
+
+#contact
+{
+    padding: 25px 0;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#contact h3
+{
+    
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom:  1px solid #02b8dd;
+    padding-bottom: 20px;   
+}
+
+.categorie_titre{
+	font-weight: bold;
+	/*border-top: 5px dashed violet;*/
+	border-bottom: 5px solid #ef5f5f;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	margin: 22px auto;
+	border-radius: 5px;
+	color: #ef5f5f;
+
+}
+
+.annonce{
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+	width: 100%;
+	margin: 10px auto;
+	border: 3px solid violet;
+	border-radius:5px;
+
+}
+
+.an_annonce{
+	width: 30%;
+	height: auto;
+	color: #fff;
+	background-color: violet;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
